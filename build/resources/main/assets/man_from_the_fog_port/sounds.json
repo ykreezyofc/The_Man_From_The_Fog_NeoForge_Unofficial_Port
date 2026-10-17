@@ -1,0 +1,74 @@
+{
+  "spawn1": {
+    "sounds": [
+      {
+        "name": "man_from_the_fog_port:spawn1",
+        "stream": false
+      }
+    ]
+  },
+  "spawn2": {
+    "sounds": [
+      {
+        "name": "man_from_the_fog_port:spawn-version-1",
+        "stream": false
+      }
+    ]
+  },
+  "spawn3": {
+    "sounds": [
+      {
+        "name": "man_from_the_fog_port:spawn-version-2",
+        "stream": false
+      }
+    ]
+  },
+  "spawn4": {
+    "sounds": [
+      {
+        "name": "man_from_the_fog_port:spotted",
+        "stream": false
+      }
+    ]
+  },
+  "spawn5": {
+    "sounds": [
+      {
+        "name": "man_from_the_fog_port:spawn-version-3",
+        "stream": false
+      }
+    ]
+  },
+  "chasedv2": {
+    "sounds": [
+      {
+        "name": "man_from_the_fog_port:chasedv2",
+        "stream": false
+      }
+    ]
+  },
+  "jumpscare": {
+    "sounds": [
+      {
+        "name": "man_from_the_fog_port:jumpscare",
+        "stream": false
+      }
+    ]
+  },
+  "reversed-version-2": {
+    "sounds": [
+      {
+        "name": "man_from_the_fog_port:reversed-version-2",
+        "stream": false
+      }
+    ]
+  },
+  "spotted": {
+    "sounds": [
+      {
+        "name": "man_from_the_fog_port:look-version-1",
+        "stream": false
+      }
+    ]
+  }
+}

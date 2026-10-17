@@ -1,0 +1,66 @@
+--------------------------------------------------------------------------------
+
+Command-Line:
+ - C:\Users\cowda\.gradle\jdks\eclipse_adoptium-25-amd64-windows.2\bin\java.exe
+ - --sun-misc-unsafe-memory-access=allow
+ - -jar
+ - C:\Users\cowda\.gradle\caches\modules-2\files-2.1\net.neoforged.jst\jst-cli-bundle\2.0.6\41bc2dcac9fe41493bee064a7e07b63a5d08348\jst-cli-bundle-2.0.6.jar
+ - --problems-report
+ - C:\Users\cowda\Downloads\the man 26.2 - 1.0.0\build\tmp\neoformruntime\20261011-011422_transformSources\problems.json
+ - --libraries-list
+ - ./libraries.txt
+ - --in-format
+ - ARCHIVE
+ - --out-format
+ - ARCHIVE
+ - --enable-accesstransformers
+ - --access-transformer
+ - ats\accesstransformer.cfg
+ - --access-transformer
+ - ats\accesstransformergenerated.cfg
+ - --enable-interface-injection
+ - --interface-injection-data
+ - C:\Users\cowda\.gradle\caches\modules-2\files-2.1\com.geckolib\geckolib-neoforge-26.2\5.5.6\db6451aa4d56b03e5fabb66d67d9c28076e1928a\geckolib-neoforge-26.2-5.5.6-interfaceinjection.json
+ - --interface-injection-stubs
+ - ./stubs.jar
+ - C:\Users\cowda\.gradle\caches\neoformruntime\intermediate_results\applyNeoforgePatches_e62a99e1c6d319c8644a5a3b1544c1243b7a26ba_output.zip
+ - ./output.zip
+--------------------------------------------------------------------------------
+
+Failed to create binary representation for type net.neoforged.neoforge.client.settings.IKeyConflictContext
+Failed to create binary representation for type net.neoforged.neoforge.client.settings.IKeyConflictContext
+Failed to create binary representation for type net.neoforged.neoforge.client.settings.IKeyConflictContext
+Failed to create binary representation for type net.neoforged.neoforge.client.settings.KeyModifier
+Failed to create binary representation for type net.neoforged.neoforge.client.settings.IKeyConflictContext
+Failed to create binary representation for type net.neoforged.neoforge.client.settings.KeyModifier
+Failed to create binary representation for type net.neoforged.neoforge.client.settings.IKeyConflictContext
+Failed to create binary representation for type net.neoforged.neoforge.client.settings.IKeyConflictContext
+Failed to create binary representation for type net.neoforged.neoforge.client.settings.KeyModifier
+Failed to create binary representation for type net.neoforged.neoforge.client.settings.KeyModifier
+Failed to create binary representation for type net.neoforged.neoforge.client.settings.KeyModifier
+Failed to create binary representation for type net.neoforged.neoforge.client.model.generators.template.ExtendedModelTemplateBuilder
+Failed to create binary representation for type net.neoforged.fml.common.asm.enumextension.ExtensionInfo
+Failed to create binary representation for type net.neoforged.neoforge.network.connection.ConnectionType
+Failed to create binary representation for type net.neoforged.neoforge.client.model.ExtraFaceData
+Failed to create binary representation for type net.neoforged.neoforge.client.model.ExtraFaceData
+Failed to create binary representation for type net.neoforged.neoforge.client.model.ExtraFaceData
+Failed to create binary representation for type net.neoforged.neoforge.client.model.ExtraFaceData
+Failed to create binary representation for type net.neoforged.neoforge.client.model.ExtraFaceData
+Failed to create binary representation for type net.neoforged.neoforge.client.model.ExtraFaceData
+Failed to create binary representation for type net.neoforged.neoforge.event.SortedReloadListenerEvent
+Failed to create binary representation for type net.neoforged.neoforge.attachment.AttachmentType<?>
+Failed to create binary representation for type net.neoforged.neoforge.capabilities.ICapabilityInvalidationListener
+Failed to create binary representation for type net.neoforged.neoforge.fluids.FluidType
+Failed to create binary representation for type net.neoforged.neoforge.attachment.AttachmentType<T>
+Failed to create binary representation for type net.neoforged.neoforge.attachment.AttachmentType<?>
+Failed to create binary representation for type net.neoforged.neoforge.capabilities.EntityCapability<T,C>
+Failed to create binary representation for type net.neoforged.neoforge.capabilities.EntityCapability<T,Void>
+Failed to create binary representation for type net.neoforged.fml.common.asm.enumextension.ExtensionInfo
+Failed to create binary representation for type net.neoforged.neoforge.transfer.item.ItemResource
+Failed to create binary representation for type net.neoforged.neoforge.common.crafting.ICustomIngredient
+Failed to create binary representation for type net.neoforged.neoforge.common.crafting.ICustomIngredient
+Failed to create binary representation for type net.neoforged.neoforge.common.world.ModifiableBiomeInfo
+Failed to create binary representation for type net.neoforged.neoforge.transfer.transaction.TransactionContext
+Failed to create binary representation for type net.neoforged.neoforge.transfer.item.ContainerOrHandler
+Failed to create binary representation for type net.neoforged.neoforge.transfer.item.ContainerOrHandler
+Failed to create binary representation for type net.neoforged.neoforge.transfer.item.ContainerOrHandler

@@ -1,0 +1,50 @@
+/summon man_from_the_fog_port:the_man
+/gamemode survival
+/gamemode creative
+/summon man_from_the_fog_port:man_agressive
+/gamemode survival
+/summon man_from_the_fog_port:the_man
+/gamemode survival
+/gamemode creative
+/summon man_from_the_fog_port:the_man
+/gamemode survival
+/time set minecraft:night
+/gamemode survival
+/gamemode creative
+/time set night
+/locate biome plains
+/tp @s -296 84 -46
+/time set night
+/locate biome minecraft:plains
+/tp @s -201 83 -475
+/time set night
+/gamemode survival
+/time set minecraft:night
+/gamemode survival
+/gamemode creative
+/tp @a @e[type=man_from_the_fog_port:the_man,limit=1]
+/gamemode survival
+/locate biome plains
+/tp @s -253 116 -106
+/time set minecraft:night
+/gamemode survival
+/give @a man_from_the_fog_port:man_agressive_spawn_egg
+/give @a man_from_the_fog_port:tear_of_the_man
+/summon man_from_the_fog_port:man_agressive
+/kill @e
+/kill @e[type=man_from_the_fog_port:man_agressive]
+/summon man_from_the_fog_port:man_agressive
+/kill @e[type=man_from_the_fog_port:man_agressive]
+/summon man_from_the_fog_port:man_agressive
+/kill @e[type=man_from_the_fog_port:man_agressive]
+/summon man_from_the_fog_port:man_agressive
+/kill @e[type=man_from_the_fog_port:man_agressive]
+/summon man_from_the_fog_port:man_agressive
+/summon man_from_the_fog_port:the_man
+/gamemode survival
+/gamemode creative
+/summon man_from_the_fog_port:the_man
+/gamemode survival
+/gamemode creative
+/summon man_from_the_fog_port:the_man
+/gamemode survival

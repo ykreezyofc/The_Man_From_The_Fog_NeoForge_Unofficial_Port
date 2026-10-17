@@ -1,0 +1,46 @@
+modLoader="javafml"
+loaderVersion="[4,)"
+license="Not specified"
+
+[[mods]]
+modId="man_from_the_fog_port"
+version="1.0.0"
+displayName="Man From The Fog Port"
+displayURL="https://mcreator.net"
+logoFile="logo.png"
+credits="MaDo"
+authors="ykreezyofc"
+description="The Man From The Fog ported to 26.2 by ykreezyofc. Original mod by MaDo https://www.curseforge.com/minecraft/mc-mods/the-man-from-the-fog"
+
+# Start of user code block mod configuration
+# End of user code block mod configuration
+
+
+# Start of user code block custom mixins
+# End of user code block custom mixins
+
+[[dependencies.man_from_the_fog_port]]
+    modId="neoforge"
+    type="required"
+    versionRange="[26.2.0.2-beta,)"
+    ordering="AFTER"
+    side="BOTH"
+
+[[dependencies.man_from_the_fog_port]]
+    modId="minecraft"
+    type="required"
+    versionRange="[26.2]"
+    ordering="AFTER"
+    side="BOTH"
+
+
+[[dependencies.man_from_the_fog_port]]
+    modId="geckolib"
+    type="optional"
+    versionRange="[0,)"
+    ordering="NONE"
+    side="BOTH"
+
+
+# Start of user code block dependencies configuration
+# End of user code block dependencies configuration

@@ -1,0 +1,583 @@
+{
+  "mod_elements": [
+    {
+      "name": "TheMan",
+      "type": "animatedentity",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "the_man",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/manfromthefogport/entity/model/TheManModel.java",
+          "src/main/java/net/mcreator/manfromthefogport/entity/layer/TheManLayer.java",
+          "src/main/java/net/mcreator/manfromthefogport/entity/TheManEntity.java",
+          "src/main/resources/assets/man_from_the_fog_port/models/item/the_man_spawn_egg.json",
+          "src/main/java/net/mcreator/manfromthefogport/client/renderer/TheManRenderer.java",
+          "src/main/resources/assets/man_from_the_fog_port/items/the_man_spawn_egg.json"
+        ]
+      }
+    },
+    {
+      "name": "TheManOnInitialEntitySpawn",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "the_man_on_initial_entity_spawn",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ],
+        "files": [
+          "src/main/java/net/mcreator/manfromthefogport/procedures/TheManOnInitialEntitySpawnProcedure.java"
+        ]
+      }
+    },
+    {
+      "name": "PlayerLook",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "player_look",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ],
+        "files": [
+          "src/main/java/net/mcreator/manfromthefogport/procedures/PlayerLookProcedure.java"
+        ]
+      }
+    },
+    {
+      "name": "ManAgressive",
+      "type": "animatedentity",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "man_agressive",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/man_from_the_fog_port/models/item/man_agressive_spawn_egg.json",
+          "src/main/java/net/mcreator/manfromthefogport/entity/ManAgressiveEntity.java",
+          "src/main/java/net/mcreator/manfromthefogport/client/renderer/ManAgressiveRenderer.java",
+          "src/main/resources/assets/man_from_the_fog_port/items/man_agressive_spawn_egg.json",
+          "src/main/java/net/mcreator/manfromthefogport/entity/model/ManAgressiveModel.java",
+          "src/main/java/net/mcreator/manfromthefogport/entity/layer/ManAgressiveLayer.java"
+        ]
+      }
+    },
+    {
+      "name": "TheManOnEntityTickUpdate",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "the_man_on_entity_tick_update",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ],
+        "files": [
+          "src/main/java/net/mcreator/manfromthefogport/procedures/TheManOnEntityTickUpdateProcedure.java"
+        ]
+      }
+    },
+    {
+      "name": "Spawning",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "spawning",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ],
+        "files": [
+          "src/main/java/net/mcreator/manfromthefogport/procedures/SpawningProcedure.java"
+        ]
+      }
+    },
+    {
+      "name": "TheManEntityDies",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "the_man_entity_dies",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ],
+        "files": [
+          "src/main/java/net/mcreator/manfromthefogport/procedures/TheManEntityDiesProcedure.java"
+        ]
+      }
+    },
+    {
+      "name": "ManKillsPlayer",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "man_kills_player",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ],
+        "files": [
+          "src/main/java/net/mcreator/manfromthefogport/procedures/ManKillsPlayerProcedure.java"
+        ]
+      }
+    },
+    {
+      "name": "JumpscareDisplayOverlayIngame",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "jumpscare_display_overlay_ingame",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ],
+        "return_type": "logic",
+        "files": [
+          "src/main/java/net/mcreator/manfromthefogport/procedures/JumpscareDisplayOverlayIngameProcedure.java"
+        ]
+      }
+    },
+    {
+      "name": "Jumpscare",
+      "type": "overlay",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "jumpscare",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/manfromthefogport/client/screens/JumpscareOverlay.java"
+        ]
+      }
+    },
+    {
+      "name": "ManAgressiveOnEntityTickUpdate",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "man_agressive_on_entity_tick_update",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ],
+        "files": [
+          "src/main/java/net/mcreator/manfromthefogport/procedures/ManAgressiveOnEntityTickUpdateProcedure.java"
+        ]
+      }
+    },
+    {
+      "name": "ManAgressiveOnInitialEntitySpawn",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "man_agressive_on_initial_entity_spawn",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ],
+        "files": [
+          "src/main/java/net/mcreator/manfromthefogport/procedures/ManAgressiveOnInitialEntitySpawnProcedure.java"
+        ]
+      }
+    },
+    {
+      "name": "TearOfTheManItemInHandTick",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tear_of_the_man_item_in_hand_tick",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ],
+        "files": [
+          "src/main/java/net/mcreator/manfromthefogport/procedures/TearOfTheManItemInHandTickProcedure.java"
+        ]
+      }
+    },
+    {
+      "name": "TearOfTheMan",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tear_of_the_man",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/man_from_the_fog_port/models/item/tear_of_the_man.json",
+          "src/main/java/net/mcreator/manfromthefogport/item/TearOfTheManItem.java",
+          "src/main/resources/assets/man_from_the_fog_port/items/tear_of_the_man.json"
+        ]
+      }
+    }
+  ],
+  "variable_elements": [
+    {
+      "name": "amount",
+      "type": "number",
+      "scope": "map",
+      "value": "0"
+    },
+    {
+      "name": "sound",
+      "type": "number",
+      "scope": "map",
+      "value": "0"
+    },
+    {
+      "name": "strike",
+      "type": "number",
+      "scope": "map",
+      "value": "0"
+    },
+    {
+      "name": "chance",
+      "type": "number",
+      "scope": "map",
+      "value": "0"
+    },
+    {
+      "name": "distance",
+      "type": "number",
+      "scope": "map",
+      "value": "0"
+    },
+    {
+      "name": "distancez",
+      "type": "number",
+      "scope": "map",
+      "value": "0"
+    },
+    {
+      "name": "positionx",
+      "type": "number",
+      "scope": "map",
+      "value": "0"
+    },
+    {
+      "name": "positiony",
+      "type": "number",
+      "scope": "map",
+      "value": "0"
+    },
+    {
+      "name": "jumpscare",
+      "type": "number",
+      "scope": "map",
+      "value": "0"
+    },
+    {
+      "name": "music",
+      "type": "number",
+      "scope": "map",
+      "value": "0.0"
+    },
+    {
+      "name": "despawn",
+      "type": "number",
+      "scope": "map",
+      "value": "0"
+    },
+    {
+      "name": "despawntimer",
+      "type": "number",
+      "scope": "map",
+      "value": "0"
+    },
+    {
+      "name": "despawnScheduled",
+      "type": "number",
+      "scope": "map",
+      "value": "0"
+    }
+  ],
+  "sound_elements": [
+    {
+      "name": "spawn1",
+      "files": [
+        "spawn1"
+      ],
+      "category": "master",
+      "subtitle": ""
+    },
+    {
+      "name": "spawn2",
+      "files": [
+        "spawn-version-1"
+      ],
+      "category": "master",
+      "subtitle": ""
+    },
+    {
+      "name": "spawn3",
+      "files": [
+        "spawn-version-2"
+      ],
+      "category": "master",
+      "subtitle": ""
+    },
+    {
+      "name": "spawn4",
+      "files": [
+        "spotted"
+      ],
+      "category": "master",
+      "subtitle": ""
+    },
+    {
+      "name": "spawn5",
+      "files": [
+        "spawn-version-3"
+      ],
+      "category": "master",
+      "subtitle": ""
+    },
+    {
+      "name": "chasedv2",
+      "files": [
+        "chasedv2"
+      ],
+      "category": "master",
+      "subtitle": ""
+    },
+    {
+      "name": "jumpscare",
+      "files": [
+        "jumpscare"
+      ],
+      "category": "master",
+      "subtitle": ""
+    },
+    {
+      "name": "reversed-version-2",
+      "files": [
+        "reversed-version-2"
+      ],
+      "category": "master",
+      "subtitle": ""
+    },
+    {
+      "name": "spotted",
+      "files": [
+        "look-version-1"
+      ],
+      "category": "master",
+      "subtitle": ""
+    }
+  ],
+  "tag_elements": {
+    "BLOCKS:minecraft:doors": [
+      "Blocks.OAK_DOOR",
+      "Blocks.SPRUCE_DOOR",
+      "Blocks.BIRCH_DOOR",
+      "Blocks.JUNGLE_DOOR",
+      "Blocks.ACACIA_DOOR",
+      "Blocks.DARK_OAK_DOOR",
+      "Blocks.PALE_OAK_DOOR",
+      "Blocks.CRIMSON_DOOR",
+      "Blocks.WARPED_DOOR",
+      "Blocks.MANGROVE_DOOR",
+      "Blocks.CHERRY_DOOR",
+      "Blocks.BAMBOO_DOOR"
+    ],
+    "BLOCKS:minecraft:glass": [
+      "Blocks.GLASS",
+      "Blocks.TINTED_GLASS",
+      "Blocks.STAINED_GLASS#0",
+      "Blocks.STAINED_GLASS#1",
+      "Blocks.STAINED_GLASS#2",
+      "Blocks.STAINED_GLASS#3",
+      "Blocks.STAINED_GLASS#4",
+      "Blocks.STAINED_GLASS#5",
+      "Blocks.STAINED_GLASS#6",
+      "Blocks.STAINED_GLASS#7",
+      "Blocks.STAINED_GLASS#8",
+      "Blocks.STAINED_GLASS#9",
+      "Blocks.STAINED_GLASS#10",
+      "Blocks.STAINED_GLASS#11",
+      "Blocks.STAINED_GLASS#12",
+      "Blocks.STAINED_GLASS#13",
+      "Blocks.STAINED_GLASS#14",
+      "Blocks.STAINED_GLASS#15",
+      "Blocks.GLASS_PANE",
+      "Blocks.STAINED_GLASS_PANE#0",
+      "Blocks.STAINED_GLASS_PANE#1",
+      "Blocks.STAINED_GLASS_PANE#2",
+      "Blocks.STAINED_GLASS_PANE#3",
+      "Blocks.STAINED_GLASS_PANE#4",
+      "Blocks.STAINED_GLASS_PANE#5",
+      "Blocks.STAINED_GLASS_PANE#6",
+      "Blocks.STAINED_GLASS_PANE#7",
+      "Blocks.STAINED_GLASS_PANE#8",
+      "Blocks.STAINED_GLASS_PANE#9",
+      "Blocks.STAINED_GLASS_PANE#10",
+      "Blocks.STAINED_GLASS_PANE#11",
+      "Blocks.STAINED_GLASS_PANE#12",
+      "Blocks.STAINED_GLASS_PANE#13",
+      "Blocks.STAINED_GLASS_PANE#14",
+      "Blocks.STAINED_GLASS_PANE#15"
+    ]
+  },
+  "tab_element_order": {},
+  "language_map": {
+    "en_us": {
+      "subtitles.spawn1": "",
+      "subtitles.spawn2": "",
+      "subtitles.spawn3": "",
+      "subtitles.spawn4": "",
+      "subtitles.spawn5": "",
+      "subtitles.chasedv2": "",
+      "subtitles.jumpscare": "",
+      "subtitles.reversed-version-2": "",
+      "subtitles.spotted": "",
+      "item.man_from_the_fog_port.the_man_spawn_egg": "The Man Spawn Egg",
+      "entity.man_from_the_fog_port.the_man": "The Man",
+      "entity.man_from_the_fog_port.man_agressive": "The Man",
+      "item.man_from_the_fog_port.man_agressive_spawn_egg": "The Man Spawn Egg",
+      "item.man_from_the_fog_port.tear_of_the_man": "Tear Of The Man"
+    }
+  },
+  "metadata": {
+    "files": [
+      "src/main/java/net/mcreator/manfromthefogport/init/EntityAnimationFactory.java",
+      "src/main/java/net/mcreator/manfromthefogport/client/AnimatedEntityRenderers.java",
+      "src/main/java/net/mcreator/manfromthefogport/init/ManFromTheFogPortModItems.java",
+      "src/main/java/net/mcreator/manfromthefogport/init/ManFromTheFogPortModEntities.java",
+      "src/main/java/net/mcreator/manfromthefogport/init/ManFromTheFogPortModEntityRenderers.java",
+      "src/main/resources/META-INF/neoforge.mods.toml",
+      "src/main/resources/assets/man_from_the_fog_port/sounds.json",
+      "src/main/resources/pack.mcmeta",
+      "src/main/java/net/mcreator/manfromthefogport/ManFromTheFogPortMod.java",
+      "src/main/java/net/mcreator/manfromthefogport/network/ManFromTheFogPortModVariables.java",
+      "src/main/java/net/mcreator/manfromthefogport/init/ManFromTheFogPortModSounds.java"
+    ]
+  },
+  "foldersRoot": {
+    "name": "~",
+    "children": []
+  },
+  "workspaceSettings": {
+    "modid": "man_from_the_fog_port",
+    "modName": "Man From The Fog Port",
+    "version": "1.0.0",
+    "description": "The Man From The Fog ported to 26.1.2 by ykreezyofc. Original mod by MaDo https://www.curseforge.com/minecraft/mc-mods/the-man-from-the-fog",
+    "author": "ykreezyofc",
+    "websiteURL": "https://mcreator.net",
+    "license": "Not specified",
+    "serverSideOnly": false,
+    "modPicture": "6570b57226d72",
+    "requiredMods": [],
+    "dependencies": [],
+    "dependants": [],
+    "mcreatorDependencies": [
+      "geckolib"
+    ],
+    "currentGenerator": "neoforge-26.1.2",
+    "credits": "Created using mod maker MCreator - https://mcreator.net/about",
+    "modElementsPackage": "net.mcreator.manfromthefogport"
+  },
+  "mcreatorVersion": 202600233518
+}

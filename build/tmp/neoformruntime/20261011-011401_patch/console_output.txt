@@ -1,0 +1,30 @@
+--------------------------------------------------------------------------------
+
+Command-Line:
+ - C:\Users\cowda\.gradle\jdks\eclipse_adoptium-25-amd64-windows.2\bin\java.exe
+ - --sun-misc-unsafe-memory-access=allow
+ - -jar
+ - C:\Users\cowda\.gradle\caches\modules-2\files-2.1\io.codechicken\DiffPatch\2.0.0.36\5b32f9baa0c0371c0dc80a3b88794960af0c6b44\DiffPatch-2.0.0.36-all.jar
+ - C:\Users\cowda\.gradle\caches\neoformruntime\intermediate_results\decompile_67e43e086e77afd91515747f23a2a0d1c89ecdd5_output.jar
+ - C:\Users\cowda\.gradle\caches\modules-2\files-2.1\net.neoforged\neoform\26.2-1\7bca7efe502c2b48c861b048bb3e7891ecca996\neoform-26.2-1.zip
+ - --prefix
+ - patches/
+ - --patch
+ - --archive
+ - ZIP
+ - --output
+ - ./output.zip
+ - --log-level
+ - WARN
+ - --mode
+ - OFFSET
+ - --archive-rejects
+ - ZIP
+ - --reject
+ - ./outputRejects.zip
+ - --base-path-prefix
+ - a/
+ - --modified-path-prefix
+ - b/
+--------------------------------------------------------------------------------
+

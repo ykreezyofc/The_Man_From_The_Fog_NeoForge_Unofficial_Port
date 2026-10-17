@@ -1,0 +1,6 @@
+{
+  "parent": "item/generated",
+  "textures": {
+    "layer0": "man_from_the_fog_port:item/man_agressive_spawn_egg_generated"
+  }
+}

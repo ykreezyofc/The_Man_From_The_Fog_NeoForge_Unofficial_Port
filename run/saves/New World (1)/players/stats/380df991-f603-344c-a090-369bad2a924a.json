@@ -1,0 +1,24 @@
+{
+  "stats": {
+    "minecraft:picked_up": {
+      "man_from_the_fog_port:tear_of_the_man": 1
+    },
+    "minecraft:custom": {
+      "minecraft:sprint_one_cm": 1642,
+      "minecraft:time_since_rest": 1393,
+      "minecraft:walk_one_cm": 1022,
+      "minecraft:total_world_time": 2575,
+      "minecraft:leave_game": 1,
+      "minecraft:fly_one_cm": 11822,
+      "minecraft:sneak_time": 13,
+      "minecraft:play_time": 2542,
+      "minecraft:deaths": 1,
+      "minecraft:jump": 8,
+      "minecraft:time_since_death": 1362
+    },
+    "minecraft:used": {
+      "minecraft:sandstone": 1
+    }
+  },
+  "DataVersion": 4790
+}
